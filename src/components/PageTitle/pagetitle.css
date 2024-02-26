@@ -1,0 +1,12 @@
+.pagetitle {
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    background-color: #f9fdfe;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+.pagetitle h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #012970;
+}

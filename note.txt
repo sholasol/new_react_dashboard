@@ -1,0 +1,5 @@
+Use the command below to run json server
+
+
+json-server --watch --port 4000 ./api/inf
+o.json
