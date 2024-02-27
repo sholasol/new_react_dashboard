@@ -15,7 +15,7 @@ const Report = () => {
         <CardFilter filterChange={handleFilterChange}/>
         <div className="card-body">
             <h5 className="card-title">
-                Reporst <span>/{filter}</span>
+                Report <span>/{filter}</span>
             </h5>
             <ReportChart />
         </div>

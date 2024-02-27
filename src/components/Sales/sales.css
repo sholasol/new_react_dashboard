@@ -1,0 +1,19 @@
+.recent-sales {
+    font-size: 14px;
+}
+
+.recent-sales .table thead {
+    background: #f6f6fe !important;
+}
+
+.recent-sales .table thead th {
+    border: 0;
+}
+
+.recent-sales .dataTbale-top {
+    padding: 10px 0 0 0;
+}
+
+.recent-sales .dataTbale-bottom {
+    padding: 10px 0 0 0;
+}
