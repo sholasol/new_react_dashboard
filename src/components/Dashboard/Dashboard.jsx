@@ -4,6 +4,7 @@ import Card from '../Crad/Card';
 import Report from '../Report/Report';
 import RecentSales from '../Sales/RecentSales';
 import TopSelling from '../TopSelling/TopSelling';
+import RecentActivity from '../RecentActivity/RecentActivity';
 
 const Dashboard = () => {
 
@@ -41,7 +42,9 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-4"> </div>
+            <div className="col-lg-4"> 
+                <RecentActivity />
+            </div>
         </div>
     </section>
   )
