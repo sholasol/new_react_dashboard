@@ -1,9 +1,9 @@
-import React from 'react';
-import './main.css';
+import React from 'react'
+import './mainPage.css';
 import PageTitle from '../PageTitle/PageTitle';
 import Dashboard from '../Dashboard/Dashboard';
 
-const Main = () => {
+const MainPage = () => {
   return (
     <main id='main' className='name'>
         <PageTitle page="Dashboard"/>
@@ -12,4 +12,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default MainPage   

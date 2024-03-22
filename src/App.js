@@ -7,21 +7,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import './App.css';
-import Header from './components/Header/Header';
-import Sidebar from './components/Sidebar/Sidebar';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
-import BackToTop from './components/BackToTop/BackToTop';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Login from './Pages/Login/Login';
+
 
 function App() {
   return (
-    <>
-      <Header />
-      <Sidebar />
-      <Main />
-      <Footer />
-      <BackToTop/>
-    </>
+    <Router>
+      <Routes>
+          <Route path='/' element={<Login />}/>
+          <Route path='/dashboard' element={<Home />}/>
+      </Routes>
+    </Router>
   )
 }
 
